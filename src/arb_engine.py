@@ -1,5 +1,3 @@
-# src/arb_engine.py
-
 from typing import Optional
 
 from polymarket_api import get_yes_price_from_slug

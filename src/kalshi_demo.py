@@ -1,4 +1,3 @@
-# src/kalshi_demo.py
 from kalshi_api import list_some_markets, get_market
 
 

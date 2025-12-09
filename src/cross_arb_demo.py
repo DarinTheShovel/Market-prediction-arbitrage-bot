@@ -1,5 +1,3 @@
-# src/cross_arb_demo.py
-
 from polymarket_api import get_market_by_slug, get_yes_price_from_market
 from kalshi_api import get_market as get_kalshi_market
 
@@ -50,11 +48,9 @@ def get_kalshi_mid_price(ticker: str):
 def main():
     print("=== Cross-Platform Arbitrage Demo ===")
 
-    # ---- Polymarket ----
     poly_price = get_polymarket_price(POLY_SLUG)
     print(f"Polymarket YES price: {poly_price}")
 
-    # ---- Kalshi ----
     if KALSHI_TICKER:
         kalshi_mid = get_kalshi_mid_price(KALSHI_TICKER)
         print(f"Kalshi mid price:     {kalshi_mid}")
@@ -62,7 +58,6 @@ def main():
         kalshi_mid = None
         print("Kalshi ticker = None")
 
-    # ---- Spread ----
     if poly_price is not None and kalshi_mid is not None:
         spread = kalshi_mid - poly_price
         print(f"Spread (Kalshi - Poly): {spread:.4f}")

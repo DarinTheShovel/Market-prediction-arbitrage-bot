@@ -1,4 +1,3 @@
-# src/kalshi_api.py
 import requests
 
 BASE_URL = "https://api.elections.kalshi.com/trade-api/v2"
