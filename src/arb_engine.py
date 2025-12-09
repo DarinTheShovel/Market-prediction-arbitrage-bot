@@ -38,7 +38,6 @@ def _parse_teams_from_poly_slug(poly_slug: str):
     yes_team = ""
     other_team = ""
 
-    # 非常简单的假设：nfl-<team1>-<team2>-....
     if len(parts) >= 3:
         yes_team = parts[1].upper()
         other_team = parts[2].upper()
