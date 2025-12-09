@@ -12,7 +12,7 @@ This project implements a lightweight framework for comparing binary-event price
 
 - Building a modular and extendable codebase for cross-exchange analysis
 
-- What the Project Does:
+# What the Project Does:
 
 - Fetches live YES probabilities from Polymarket
 
@@ -39,9 +39,13 @@ The project includes:
 
 # Example Event Configuration:
 Each row in events.csv includes:
+
 label: a human-readable description of the event
+
 poly_slug: the Polymarket slug for the outcome
+
 kalshi_ticker: the corresponding Kalshi market ticker
+
 side: indicates whether Kalshi’s price corresponds to the same side or complement of Polymarket’s YES outcome
 
 # Running the Scanner:
