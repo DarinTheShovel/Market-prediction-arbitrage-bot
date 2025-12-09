@@ -33,4 +33,5 @@ Kalshi aligned:      0.565
 Spread:              0.000
 ```
 5. Notes 
+
 This Project is a work in progress Only binary events are supported currently Data reflects live market conditions and may change rapidly

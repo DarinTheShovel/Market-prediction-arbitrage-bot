@@ -62,4 +62,4 @@ For each event, the system prints Polymarket YES probability, Kalshi’s mid pri
 
 - Expanded support for spreads, totals, and other market types
 
-- And more
+- And More
