@@ -1,3 +1,3 @@
 label,poly_slug,kalshi_ticker,side_input,side_effective,poly_price,kalshi_mid_raw,kalshi_same_side,spread
-BAL vs CIN - BAL win,nfl-bal-cin-2025-12-14,KXNFLGAME-25DEC14BALCIN-BAL,same,poly_same_as_yes_team,0.57,0.56,0.56,-0.009999999999999898
-BAL vs CIN - CIN win,nfl-bal-cin-2025-12-14,KXNFLGAME-25DEC14BALCIN-CIN,complement,poly_complement_of_yes_team,0.43000000000000005,0.435,0.435,0.004999999999999949
+BAL vs CIN - BAL win,nfl-bal-cin-2025-12-14,KXNFLGAME-25DEC14BALCIN-BAL,auto,poly_same_as_yes_team,0.57,0.56,0.56,-0.009999999999999898
+BAL vs CIN - CIN win,nfl-bal-cin-2025-12-14,KXNFLGAME-25DEC14BALCIN-CIN,auto,poly_complement_of_yes_team,0.43000000000000005,0.435,0.435,0.004999999999999949
