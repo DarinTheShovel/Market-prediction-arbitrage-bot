@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# --- Virtual Environment ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- VS Code settings ---
+.vscode/
+
+# --- macOS system files ---
+.DS_Store
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Build / packaging ---
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# --- Logs ---
+*.log
+
+# --- Cache ---
+.cache/
